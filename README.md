@@ -10,8 +10,8 @@ includes: ['layer: kafka-subclient']
 ```
 
 This layer provides three configuration parameters:
-1. topics: ; seperated list of topics to subscribe to. Can be left empty, the subscriber will remember your endpoint but not send any messages. (Ex. topic1;topic2) 
-2. endpoint: Endpoint to which the subscriber will send the Kafka messages. (Ex. 172.28.0.28/log)
+1. topics: Space seperated list of topics to subscribe to. Can be left empty, the subscriber will remember your endpoint but not send any messages.
+2. endpoint: Endpoint to which the subscriber will send the Kafka messages.
 3. subscriber: IP adress of the kafka-subscriber service.
 
 Subscriptions will be started when the endpoint and subscriber config parameters are filled in.
