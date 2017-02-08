@@ -1,0 +1,7 @@
+name: kafka-subclient
+summary: This charm provides a client to connect to kafka-subscriber
+maintainer: Sander Borny <sander.borny@intec.ugent.be>
+description: |
+  This charm provides a client to connect to kafka-subscriber
+tags:
+  - misc

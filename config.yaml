@@ -1,0 +1,13 @@
+options:
+  topics:
+    type: string
+    default: ""
+    description: "Space seperated list of Kafka topics to subscribe to."
+  endpoint:
+    type: string
+    default: ""
+    description: "Endpoint for the Kafka subscriber."
+  subscriber:
+    type: string
+    default: ""
+    description: "Ip of Kafka-Subscriber"
