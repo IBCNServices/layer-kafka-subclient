@@ -11,3 +11,7 @@ options:
     type: string
     default: ""
     description: "Ip of Kafka-Subscriber"
+  credentials:
+    type: string
+    default: ""
+    description: "Space separated username and password for basic authentication."
