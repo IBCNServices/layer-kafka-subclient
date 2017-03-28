@@ -26,7 +26,7 @@ def unsubscribe(subscriber, payload):
         headers = {'Content-type': 'application/json'}
         if config['credentials']:
             credentials = config['credentials'].split(' ')
-            r = requests.delete("http://" + subscriber + "/unsubscribe", 
+            r = requests.delete("https://" + subscriber + "/unsubscribe", 
                                 data=json.dumps(payload), 
                                 headers=headers,
                                 auth=HTTPBasicAuth(credentials[0], credentials[1]))
